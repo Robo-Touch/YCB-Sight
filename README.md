@@ -1,15 +1,23 @@
 # **YCB-Sight**: GelSight + depth camera visuo-tactile dataset
 
-Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa] [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+
+
+![cover](/media/YCBSight.png)
 
 YCB-Sight is a visuo-tactile dataset including the simulated and real data from a GelSight tactile sensor and Kinect Azure RGB-D camera on [YCB dataset](https://www.ycbbenchmarks.com).
 
 ## Dataset
-You can find the whole dataset [here](https://drive.google.com/drive/folders/17BPST4biGzduVtoCUBswOmkISqNh1srI?usp=sharing), or download partial data as follows.
+You can find the whole dataset [here](https://drive.google.com/drive/folders/17BPST4biGzduVtoCUBswOmkISqNh1srI?usp=sharing), or download partial data below
 
-**YCBSight-Sim**
+### YCBSight-Sim
 
-*Simulated tactile and depth data with (Taxim)[https://github.com/CMURoboTouch/Taxim] and pyrender*
+![cover](/media/YCBSight-sim.gif)
+
+Simulated tactile and depth data with [Taxim](https://github.com/CMURoboTouch/Taxim) and [pyrender](https://github.com/mmatl/pyrender)
 
 | Object Name |  Size (MB) | Link |
 | -- | -- |  -- |
@@ -45,9 +53,11 @@ You can find the whole dataset [here](https://drive.google.com/drive/folders/17B
 | 077_rubiks_cube |  61.3  | [[Link]](https://drive.google.com/file/d/1kpvxRrcCvKx_SaBcJWVS9KghLbQEkdxZ/view?usp=sharing) |
 
 
-**YCBSight-Real**
+### YCBSight-Real
 
-*Collected tactile and depth data from real world experiments*
+![cover](/media/YCBSight-real.gif)
+
+Collected tactile and depth data from real world experiments
 
 | Object Name |  Size (GB) | Link |
 | -- | -- |  -- |
@@ -97,7 +107,7 @@ YCBSight-Real
 └── ...
 ```
 
-## Denpendencies
+## Dependencies
 The visualization and data processing are implemented in python3 and require numpy, scipy, matplotlib, cv2.
 
 To install dependencies: `pip install -r requirements.txt`.
@@ -115,8 +125,8 @@ To install dependencies: `pip install -r requirements.txt`.
 Please refer to [this repo](https://github.com/XPFly1989/FCRN) (pytorch version) and [this repo](https://github.com/iro-cp/FCRN-DepthPrediction) (tensorflow version).
 
 ## License
-This work is licensed under a
-[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+This dataset is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa], with the accompanying processing code licensed under a [BSD-2-Clause License](https://opensource.org/licenses/BSD-2-Clause). 
 
 ## Citation
 If you use YCB-Sight dataset in your research, please cite:
@@ -128,11 +138,5 @@ If you use YCB-Sight dataset in your research, please cite:
   year={2021}
 }
 ```
-
-[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
-
-[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
-[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
-[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
 
