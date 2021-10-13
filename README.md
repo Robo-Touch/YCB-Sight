@@ -1,6 +1,6 @@
-# **YCB-Sight**: GelSight + depth camera visuo-tactile dataset
+# **YCB-Sight**: A visuo-tactile dataset for object understanding
 
-[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa] [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa] &nbsp; [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height="20" src="media/robotouch.png" alt="Robotouch-logo" /> &nbsp;&nbsp; <img height="20" src="media/rpl.png" alt="RPL-logo" /> 
 
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
@@ -8,7 +8,7 @@
 
 ![cover](/media/YCBSight.png)
 
-YCB-Sight is a visuo-tactile dataset including the simulated and real data from a GelSight tactile sensor and Kinect Azure RGB-D camera on [YCB dataset](https://www.ycbbenchmarks.com).
+YCB-Sight is a visuo-tactile dataset including the simulated and real data from a GelSight tactile sensor and Kinect Azure RGB-D camera on the [YCB dataset](https://www.ycbbenchmarks.com).
 
 ## Dataset
 You can find the whole dataset [here](https://drive.google.com/drive/folders/17BPST4biGzduVtoCUBswOmkISqNh1srI?usp=sharing), or download partial data below
