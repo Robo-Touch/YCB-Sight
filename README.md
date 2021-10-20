@@ -1,6 +1,6 @@
 # **YCB-Sight**: A visuo-tactile dataset for object understanding
 
-[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa] &nbsp; [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height="20" src="media/robotouch.png" alt="Robotouch-logo" /> &nbsp;&nbsp; <img height="20" src="media/rpl.png" alt="RPL-logo" /> 
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa] &nbsp; [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height="20" src="media/robotouch.png" alt="Robotouch-logo" /> &nbsp;&nbsp; <img height="20" src="media/rpl.png" alt="RPL-logo" /> 
 
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
@@ -126,7 +126,7 @@ Please refer to [this repo](https://github.com/XPFly1989/FCRN) (pytorch version)
 
 ## License
 This dataset is licensed under a
-[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa], with the accompanying processing code licensed under a [BSD-2-Clause License](https://opensource.org/licenses/BSD-2-Clause). 
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa], with the accompanying processing code licensed under the [MIT License](https://opensource.org/licenses/MIT). 
 
 ## Citation
 If you use YCB-Sight dataset in your research, please cite:
@@ -138,5 +138,3 @@ If you use YCB-Sight dataset in your research, please cite:
   year={2021}
 }
 ```
-
-
